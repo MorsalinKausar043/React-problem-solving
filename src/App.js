@@ -8,6 +8,8 @@ import DeleteApi from './DeleteApi';
 import ShortCircuitEvaluation from './ShortCircuitEvaluation';
 import BasicForm from './BasicForm';
 import RegistrationForm from './RegistrationForm';
+import UseEffect from './UseEffect';
+import MoreUseEffect from './MoreUseEffect';
 
 // bootstrap link is start 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -23,7 +25,9 @@ function App() {
       {/* <DeleteApi/> */}
       {/* <ShortCircuitEvaluation/> */}
       {/* <BasicForm/> */}
-      <RegistrationForm/>
+      {/* <RegistrationForm/> */}
+      {/* <UseEffect/> */}
+      <MoreUseEffect/>
     </>
   );
 };
