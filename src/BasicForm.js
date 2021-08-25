@@ -36,7 +36,7 @@ const BasicForm = () => {
                     <input className="form-control my-2" name="email" id="email" type="email" placeholder="Enter your email" onChange={StorageVal} value={Data.email}/>
                     <button className="btn btn-primary" onClick={SubmitData}>submit</button>
                 </div>
-                <div className="container">
+                <div className="mx-auto">
                     <h3 className="my-5 fw-light">My name is <span className="fw-bold">{Details.name}</span> And My email is <span className="fw-bold">{Details.email}</span></h3>
                 </div>
             </div>

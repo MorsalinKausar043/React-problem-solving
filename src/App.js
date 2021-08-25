@@ -7,6 +7,7 @@ import UseStateObject from './UseStateObject';
 import DeleteApi from './DeleteApi';
 import ShortCircuitEvaluation from './ShortCircuitEvaluation';
 import BasicForm from './BasicForm';
+import RegistrationForm from './RegistrationForm';
 
 // bootstrap link is start 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -21,7 +22,8 @@ function App() {
       {/* <UseStateObject/> */}
       {/* <DeleteApi/> */}
       {/* <ShortCircuitEvaluation/> */}
-      <BasicForm/>
+      {/* <BasicForm/> */}
+      <RegistrationForm/>
     </>
   );
 };
