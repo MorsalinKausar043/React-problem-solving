@@ -15,6 +15,7 @@ import GithubApi from "./GithubApi";
 import PhotoApi from "./PhotoApi";
 import Uncontrol from "./Uncontrol";
 import Reduace from "./Reduace";
+import Reduace2 from "./Reduace2";
 
 // bootstrap link is start
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -37,7 +38,8 @@ function App() {
       {/* <GithubApi/> */}
       {/* <PhotoApi/> */}
       {/* <Uncontrol/> */}
-      <Reduace/>
+      {/* <Reduace/> */}
+      <Reduace2/>
     </>
   );
 }
