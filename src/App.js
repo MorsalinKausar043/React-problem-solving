@@ -11,6 +11,10 @@ import RegistrationForm from "./RegistrationForm";
 import UseEffect from "./UseEffect";
 import MoreUseEffect from "./MoreUseEffect";
 import UseEffectCleanUp from "./UseEffectCleanUp";
+import GithubApi from "./GithubApi";
+import PhotoApi from "./PhotoApi";
+import Uncontrol from "./Uncontrol";
+import Reduace from "./Reduace";
 
 // bootstrap link is start
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -19,8 +23,8 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
-      <Navbar />
-      <UseEffectCleanUp />
+      {/* <Navbar /> */}
+      {/* <UseEffectCleanUp /> */}
       {/* <Count /> */}
       {/* <Api /> */}
       {/* <UseStateObject/> */}
@@ -30,6 +34,10 @@ function App() {
       {/* <RegistrationForm/> */}
       {/* <UseEffect/> */}
       {/* <MoreUseEffect/> */}
+      {/* <GithubApi/> */}
+      {/* <PhotoApi/> */}
+      {/* <Uncontrol/> */}
+      <Reduace/>
     </>
   );
 }
