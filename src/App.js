@@ -18,6 +18,7 @@ import Reduace from "./Reduace";
 import Reduace2 from "./Reduace2";
 import Context from "./Context/Context";
 import Counts from "./Costum-Hooks/Counts";
+import HomeLocation from "./HomeLocation";
 
 // bootstrap link is start
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -43,7 +44,8 @@ function App() {
       {/* <Reduace/> */}
       {/* <Reduace2/> */}
       {/* <Context/> */}
-      <Counts/>
+      {/* <Counts/> */}
+      <HomeLocation/>
     </>
   );
 }

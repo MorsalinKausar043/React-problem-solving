@@ -1,0 +1,23 @@
+import React from 'react';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Location from './Location';
+import HomaPage from './HomaPage';
+import Navbar from './Navbar';
+import Reduace from './Reduace';
+
+const HomeLocation = () => {
+    return (
+        <>
+            <BrowserRouter>
+                <Navbar/>
+                <Switch>
+                    <Route exact path="/home" component={HomaPage}/>
+                    <Route exact path="/location" component={Location}/>
+                    <Route exact path="/reduace" component={Reduace}/>
+                </Switch>
+            </BrowserRouter>
+        </>
+    )
+}
+
+export default HomeLocation;
