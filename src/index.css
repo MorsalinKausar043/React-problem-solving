@@ -9,3 +9,9 @@
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
     background: rgb(20, 163, 206);
 }
+
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(37, 154, 221);
+}

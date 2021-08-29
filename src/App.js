@@ -19,6 +19,9 @@ import Reduace2 from "./Reduace2";
 import Context from "./Context/Context";
 import Counts from "./Costum-Hooks/Counts";
 import HomeLocation from "./HomeLocation";
+import JsGoogle from "./googleSearch/JsGoogle";
+import NetFlix from "./Netflix/NetFlix";
+import LiveSearch from "./liveSearch/LiveSearch";
 
 // bootstrap link is start
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -45,7 +48,10 @@ function App() {
       {/* <Reduace2/> */}
       {/* <Context/> */}
       {/* <Counts/> */}
-      <HomeLocation/>
+      {/* <HomeLocation/> */}
+      {/* <JsGoogle/> */}
+      {/* <NetFlix/> */}
+      <LiveSearch/>
     </>
   );
 }
